@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    overflow: auto;
+    
+}
+.header{
+    background-color: #1F2937;
+    height: 250px;
+    display:flex;
+    margin-bottom:50px;
+    padding:0;
+    
+    
+}
+#random{
+    text-align: center;
+    font-size: 30px ;
+    font-weight: bold;
+}
+
+.mid-section{
+    resize: none;
+}
+.flex-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    overflow: auto;
+    position: relative;  
+    align-items: center;
+    flex:1
+    
+    
+     
+}
+#flex1, #flex2, #flex3, #flex4{
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    height:200px; width: 210px;
+    margin: 20px;
+    flex-wrap:wrap;
+    
+    
+
+}
+.quote-section{
+    background-color: #E5E7EB;
+    height: 200px
+}
