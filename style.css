@@ -2,15 +2,17 @@
     margin:0;
     padding:0;
     overflow: auto;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     
 }
 .header{
+    padding-top: 20px;
     background-color: #1F2937;
     height: 250px;
-    display:flex;
-    margin-bottom:50px;
-    padding:0;
+    margin-bottom:25px;
     
+
     
 }
 #random{
@@ -30,7 +32,9 @@
     overflow: auto;
     position: relative;  
     align-items: center;
-    flex:1
+    flex:1;
+
+    
     
     
      
@@ -48,4 +52,32 @@
 .quote-section{
     background-color: #E5E7EB;
     height: 200px
+}
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.header-links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 100px;
+    flex: 1;
+    justify-content: flex-end;
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    padding-right: 30px;
+    
+
+}
+a{
+    color: white;
+}
+#logo{
+    padding-left: 80px;
+    color: white;
 }
