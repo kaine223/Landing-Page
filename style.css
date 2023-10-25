@@ -9,8 +9,11 @@
 .header{
     padding-top: 20px;
     background-color: #1F2937;
-    height: 250px;
+    height: 450px;
     margin-bottom:25px;
+    padding-bottom: 80px;
+    padding-right: 35px;
+    overflow: hidden;
     
 
     
@@ -33,6 +36,7 @@
     position: relative;  
     align-items: center;
     flex:1;
+    padding: 50px;
 
     
     
@@ -51,7 +55,15 @@
 }
 .quote-section{
     background-color: #E5E7EB;
-    height: 200px
+    height: 385px
+}
+#quote{
+    text-align: center;
+    padding:50px;
+    font-size: 36px;
+    font-style:  light italic;
+    color: #1F2937;
+
 }
 
 nav{
@@ -64,13 +76,13 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: 35px;
     row-gap: 100px;
     flex: 1;
     justify-content: flex-end;
     font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    padding-right: 30px;
+    padding-right: 40px;
     
 
 }
@@ -80,4 +92,67 @@ a{
 #logo{
     padding-left: 80px;
     color: white;
+}
+.header-info{
+    display: flex;
+    margin-top: 80px;
+    padding-left: 80px;
+    color: white;
+    width:fit-content;
+    justify-content: space-evenly;
+}
+#swish-logo{
+    width: 45%;
+    
+    margin-left: 200px;
+    
+    
+}
+#future{
+    font-size: 38px;
+    align-items:end;
+    
+}
+button{
+    border: 20px blue;
+    border-radius: 10px;
+    width:140px;
+    height:40px;
+    background-color:#3882F6 ;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+.call-to{
+    background-color: white;
+    height: 200px
+}
+#ctb{
+    background-color: #3882F6;
+    
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right:50px;
+    padding:50px;
+    
+    
+    
+
+}
+.footer{
+        padding-top: 20px;
+        background-color: #1F2937;
+        height: 50px;
+        
+       
+        padding-right: 35px;
+        overflow: hidden;
+}
+#footer-text{
+    color:white;
+    text-align: center;
 }
